@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+	background-color:	#B0C4DE;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  background: #ede3d2;
+  border: solid 1.5px #515A66;
+  border-radius: 8px;
+  pointer-events: none;
+  font: 12px georgia; 
+  letter-spacing: 0.5px; 
+}
+
+.outline {
+	fill: none;
+	stroke: #515A66;
+}
+
+#street_view {
+	position:fixed;
+	top: 8%;
+	left: 2%;
+	width: 400px;
+	height: 300px;
+	border: 0px none transparent;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="./turnover.js"></script>
+
